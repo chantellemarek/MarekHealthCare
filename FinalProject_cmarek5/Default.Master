@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="FinalProject_cmarek5.Default" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Marek Health Care Systems</title>
+    <link href="CSS/HealthCareStyles.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header>
+        <h1>Marek Health Care</h1>
+    </header>
+    <form id="form1" runat="server">
+        <div id="navigation">
+          <!-- Navigation -->
+          <asp:Menu ID="MainNavigation" runat="server" DataSourceID="MainNavigationDS" Orientation="Horizontal">
+          </asp:Menu>
+        </div>
+        <main>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </main>
+    </form>
+    <footer>
+        <p><small>Copyright &copy; 2020 Marek Health Care - Chantelle Marek</small></p>
+        <p><small>Not a real Health Care Website</small></p>
+    </footer>
+    <!-- Navigation Data Source-->
+    <asp:SiteMapDataSource ID="MainNavigationDS" runat="server" ShowStartingNode="False" />
+</body>
+</html>

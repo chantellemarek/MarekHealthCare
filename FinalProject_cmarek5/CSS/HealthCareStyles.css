@@ -1,0 +1,103 @@
+﻿body {
+    background-color: ghostwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    text-align: center;
+}
+
+#MainNavigation {
+    background-color: #ded9d9;
+    margin-left: 400px;
+    text-align: left;
+    margin-top: 5px;
+    width: 45%;
+    font-size: large;
+}
+
+#MainNavigation ul {
+    /*list-style: none;*/
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#MainNavigation li {
+    width: 125px;
+}
+
+#navigation {
+    background-color: #ded9d9;
+    height: 60px;
+}
+
+#MainNavigation a {
+    padding: 15px;
+    color: black;
+}
+
+#MainNavigation a:hover {
+    color: crimson;
+}
+
+#MainNavigation a:active {
+    color: darkgreen;
+}
+
+#MainNavigation a.static {
+    padding-left: 0.30em !important;
+    padding-right: 0.30em !important;
+}
+
+h1 {
+    text-align: center;
+}
+
+#DeptCenter ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+#DeptCenter li{
+    font-weight: bold;
+}
+
+#PhoneAppointment {
+    background-color: white;
+    width: 375px;
+    float: left;
+    margin: 3px;
+}
+
+#PhoneAppointment h4 {
+    text-align: center;
+}
+
+#EmailAppointment {
+    background-color: white;
+    width: 375px;
+    float: left;
+    margin: 3px;
+    height: 224px;
+}
+
+#EmailAppointment h4 {
+    text-align: center;
+}
+
+#Questions {
+    background-color: white;
+    width: 375px;
+    float: left;
+    margin: 3px;
+    height: 224px;
+}
+
+#Questions h4 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
